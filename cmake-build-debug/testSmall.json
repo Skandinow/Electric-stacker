@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "name": "roads1",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::3857"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3365326.149816263932735,
+              8388240.874703451991081
+            ],
+            [
+              3365439.193497272673994,
+              8388204.984913497231901
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3366650.07787136733532,
+              8389704.739201352000237
+            ],
+            [
+              3366715.094799998681992,
+              8389581.578000001609325
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="testForDiploma"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\.vcpkg-clion\;CMake Files\..\..\.vcpkg-clion\vcpkg\;CMake Files\..\..\.vcpkg-clion\vcpkg\scripts\;CMake Files\..\..\.vcpkg-clion\vcpkg\scripts\buildsystems\;CMake Files\..\..\.vcpkg-clion\vcpkg\installed\;CMake Files\..\..\.vcpkg-clion\vcpkg\installed\x64-windows\;CMake Files\..\..\.vcpkg-clion\vcpkg\installed\x64-windows\share\;CMake Files\..\..\.vcpkg-clion\vcpkg\installed\x64-windows\share\nlohmann_json\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ggelmetdinov/CLionProjects/testForDiploma/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testForDiploma">
+				<Option output="C:/Users/ggelmetdinov/CLionProjects/testForDiploma/cmake-build-debug/testForDiploma.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ggelmetdinov/CLionProjects/testForDiploma/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Program Files/boost/boost_1_87_0"/>
+					<Add directory="C:/Users/ggelmetdinov/.vcpkg-clion/vcpkg/installed/x64-windows/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 testForDiploma"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testForDiploma/fast">
+				<Option output="C:/Users/ggelmetdinov/CLionProjects/testForDiploma/cmake-build-debug/testForDiploma.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ggelmetdinov/CLionProjects/testForDiploma/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Program Files/boost/boost_1_87_0"/>
+					<Add directory="C:/Users/ggelmetdinov/.vcpkg-clion/vcpkg/installed/x64-windows/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 testForDiploma/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ggelmetdinov/CLionProjects/testForDiploma/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ggelmetdinov/CLionProjects/testForDiploma/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ggelmetdinov\CLionProjects\testForDiploma\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ggelmetdinov/.vcpkg-clion/vcpkg/installed/x64-windows/share/nlohmann_json/nlohmann_json.natvis">
+			<Option target="testForDiploma"/>
+		</Unit>
+		<Unit filename="C:/Users/ggelmetdinov/CLionProjects/testForDiploma/main.cpp">
+			<Option target="testForDiploma"/>
+		</Unit>
+		<Unit filename="C:/Users/ggelmetdinov/CLionProjects/testForDiploma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/ggelmetdinov/CLionProjects/testForDiploma/../../.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\..\..\.vcpkg-clion\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="C:/Users/ggelmetdinov/CLionProjects/testForDiploma/../../.vcpkg-clion/vcpkg/installed/x64-windows/share/nlohmann_json/nlohmann_jsonConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\.vcpkg-clion\vcpkg\installed\x64-windows\share\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="C:/Users/ggelmetdinov/CLionProjects/testForDiploma/../../.vcpkg-clion/vcpkg/installed/x64-windows/share/nlohmann_json/nlohmann_jsonConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\.vcpkg-clion\vcpkg\installed\x64-windows\share\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="C:/Users/ggelmetdinov/CLionProjects/testForDiploma/../../.vcpkg-clion/vcpkg/installed/x64-windows/share/nlohmann_json/nlohmann_jsonTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\.vcpkg-clion\vcpkg\installed\x64-windows\share\nlohmann_json\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
